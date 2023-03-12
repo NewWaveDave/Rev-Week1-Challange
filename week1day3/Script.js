@@ -7,6 +7,13 @@ btn.addEventListener('click', myfunc)
 
 function myfunc() {
  
-    InArry.push(inputres.value)
-    alert (InArry);
+    
+  
+  Toastify({
+
+    text: InArry,
+    
+    duration: 3000
+    
+    }).showToast();
   }
